@@ -9,8 +9,6 @@
      height: 100vh;
      overflow-y: auto;
      overflow-x: hidden;
-     margin-right: 30px;
-     margin-left: 30px;
 }
 .comtainer{
      width: 1200px;
@@ -34,7 +32,7 @@
 }
 .logo-text{
      padding-left: -150px;
-     font-size: 80px;
+     font-size: 75px;
      text-align: end;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -44,7 +42,7 @@
      margin-right: 80px;
 }
 .infor div{
-     font-size: 25px;
+     font-size: 20px;
      cursor: pointer;
 }
 .infor div a{
@@ -54,4 +52,30 @@
 .infor div:hover{
      font-weight:600%;
      transition:  0.8s;
+}
+/* hero-section */
+.hero-section{
+     display: flex;
+     position: relative;
+     justify-content: center;
+     align-items: center;
+     gap: 5rem;
+     margin: 4rem auto;
+     padding: 0 1rem;
+     padding-bottom: 8rem;
+}
+.faded-text{
+     user-select: none;
+     font-size: 7rem;
+     color: rgb(231, 231, 231);
+     bottom: -16%;
+     left: -5%;
+     font-weight: bold;
+     transition: all 3s;
+}
+.hero-left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 3rem;
 }
